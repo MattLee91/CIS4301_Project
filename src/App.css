@@ -36,3 +36,121 @@
     transform: rotate(360deg);
   }
 }
+
+.centered {
+  text-align: center;
+}
+
+.centered nav {
+  margin-top: 50px;
+}
+
+.centered h1 {
+  font-size: 64px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: underline; /* Underline the text */
+  margin-top: 100px; /* Add more margin to move it farther away from the top */
+  margin-bottom: 200px;
+  pointer-events: none;
+}
+
+.centered button {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+}
+
+.page {
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.page h1 {
+  font-size: 64px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: underline; /* Underline the text */
+  margin-top: 100px; /* Add more margin to move it farther away from the top */
+  margin-bottom: 200px;
+  pointer-events: none;
+}
+
+.page button {
+  font-size: 20px; /* Increase font size */
+  padding: 15px 20px; /* Increase padding to increase button size */
+}
+
+.button1 {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+
+  position: absolute;
+  top: 50%;
+  left: 230px;
+  transform: translate(-50%, -50%);
+}
+
+.button2 {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.button3 {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button4 {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+.button5 {
+  display: block; /* Make buttons block-level elements to stack vertically */
+  width: 400px; /* Adjust width of buttons */
+  height: 100px; /* Adjust height of buttons */
+  font-size: 40px; /* Adjust font size of buttons */
+  margin: 40px auto; /* Center buttons horizontally and add vertical margin */
+
+  position: absolute;
+  top: 50%;
+  right: 230px;
+  transform: translate(50%, -50%);
+}
+
+.page img {
+  max-width: 80%; /* Ensure the image fits within its container */
+  max-height: 80%; /* Ensure the image fits within its container */
+  transform: translateY(-25%);
+}
